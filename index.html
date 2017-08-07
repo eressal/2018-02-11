@@ -56,9 +56,7 @@ eventbrite:    # optional: alphanumeric key for Eventbrite registration, e.g., "
 
 <!--
   INTRODUCTION
-
-  Edit the general explanatory paragraph below if you want to change
-  the pitch.
+  This explanatory paragraph will be inserted automatically, according to the workshop type selected above.
 -->
 {% if page.carpentry == "swc" %}
   {% include sc/intro.html %}
@@ -70,9 +68,7 @@ eventbrite:    # optional: alphanumeric key for Eventbrite registration, e.g., "
 
 <!--
   AUDIENCE
-
-  Explain who your audience is.  (In particular, tell readers if the
-  workshop is only open to people from a particular institution.
+  The workshop's audience will be inserted automatically, according to the workshop type selected above.
 -->
 {% if page.carpentry == "swc" %}
   {% include sc/who.html %}
@@ -203,10 +199,7 @@ eventbrite:    # optional: alphanumeric key for Eventbrite registration, e.g., "
 
 <!--
   SCHEDULE
-
-  Show the workshop's schedule.  Edit the items and times in the table
-  to match your plans.  You may also want to change 'Day 1' and 'Day
-  2' to be actual dates or days of the week.
+  The workshop's schedule will be inserted automatically, according to the workshop type selected above.
 -->
 <h2 id="schedule">Schedule</h2>
 
@@ -256,21 +249,8 @@ eventbrite:    # optional: alphanumeric key for Eventbrite registration, e.g., "
 
 <!--
   SYLLABUS
-
-  Show what topics will be covered.
-
-  1. If your workshop is R rather than Python, remove the comment
-     around that section and put a comment around the Python section.
-  2. Some workshops will delete SQL.
-  3. Please make sure the list of topics is synchronized with what you
-     intend to teach.
-  4. You may need to move the div's with class="col-md-6" around inside
-     the div's with class="row" to balance the multi-column layout.
-
-  This is one of the places where people frequently make mistakes, so
-  please preview your site before committing, and make sure to run
-  'tools/check' as well.
--->
+  The workshop's syllabus will be inserted automatically, according to the workshop type selected above.
+  -->
 <h2 id="syllabus">Syllabus/Learning Objectives</h2>
 
 <div class="row">
@@ -280,7 +260,7 @@ eventbrite:    # optional: alphanumeric key for Eventbrite registration, e.g., "
 	    <li>Work <em>in</em> vs. work <em>below</em> the GUI</li>
 	    <li>Navigate the shell</li>
 	    <li><code>Find</code>, create, copy, move and delete folders and files</li>
-	    <li>Shell beats GUI: Command history and tab completion</li>
+	    <li>Shell over GUI: Command history and tab completion</li>
 	    <li>Connect commands into workflows: pipes and redirection</li>
 	    <li>Automate repetitive tasks: loops</li>
 	    <li>Save and run workflows in scripts</li>
